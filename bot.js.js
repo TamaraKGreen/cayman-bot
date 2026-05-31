@@ -5,7 +5,7 @@
 const { Client, GatewayIntentBits, EmbedBuilder } = require("discord.js");
 
 // ─── CONFIG ────────────────────────────────────────────────────────────────
-const TOKEN = const TOKEN = process.env.TOKEN;         // From Discord Developer Portal
+const TOKEN = process.env.TOKEN;         // From Discord Developer Portal
 const CHANNEL_ID = const CHANNEL_ID = process.env.CHANNEL_ID;   // Right-click channel → Copy ID
 const EVENT_DATE = new Date("2026-09-03T00:00:00");  // 🗓️ Change this!
 const EVENT_NAME = "Grand Cayman Getaway 🌴";
